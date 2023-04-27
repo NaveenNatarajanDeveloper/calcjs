@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Calculator</title>
+       <script src="calc.js"></script>
+       <link href="calc.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="cal">
+            <center>
+                <h3>Calculator</h3>
+                <table>
+                    <tr><input id="display"></tr>
+                    <tr></tr>
+                    <tr>
+                        <td><button style="color: #bf9240;" onclick= C()>AC</button></td>
+                        <td><button style="color: #bf9240;" onclick= d()>&larr;</button></td>
+                        <td><button style="color: #bf9240;" onclick= key("%")>%</button></td>
+                        <td><button style="color: #bf9240;" onclick= key("/")>/</button></td>
+                    
+                    </tr>
+                    <tr>
+                        <td><button onclick= key(7)>7</button></td>
+                        <td><button onclick= key(8)>8</button></td>
+                        <td><button onclick= key(9)>9</button></td>
+                        <td><button style="color: #bf9240;" onclick= key("*")>x</button></td>
+                     
+                    </tr>
+                    <tr>
+                        <td><button onclick= key(4)>4</button></td>
+                        <td><button onclick= key(5)>5</button></td>
+                        <td><button onclick= key(6)>6</button></td>
+                        <td><button style="color: #bf9240;" onclick= key("-")>-</button></td>
+                    
+                    </tr>
+                    <tr>
+                        <td><button onclick= key(1)>1</button></td>
+                        <td><button onclick= key(2)>2</button></td>
+                        <td><button onclick= key(3)>3</button></td>
+                        <td><button style="color: #bf9240;" onclick= key("+")>+</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><button onclick= key(".")>.</button></td>
+                        <td><button onclick= key(0)>0</button></td>
+                        <td colspan="2"><button style="width: 82px; color: #bf9240;" onclick= sol()>=</button></td>
+                    </tr>      
+                </table>
+            </center>
+        </div>
+    </body>
+</html>

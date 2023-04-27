@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    background-image: url("https://i.ibb.co/BK9w0B2/mathematics.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#display{
+    width: 174px;
+    height: 30px;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.cal{
+    background-color: #655e89;
+    margin-top: 12%;
+    margin-left: 42%;
+    margin-right: 42%;
+    height: 48%;
+    border-radius: 40px;
+    width: 16%;
+    
+}
+
+table{
+    background-color: bl;
+}
+
+button{
+    width: 39px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: #6754c5;
+}
+
+
+
+
+
+
